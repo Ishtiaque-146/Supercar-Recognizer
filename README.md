@@ -47,3 +47,8 @@ updated by using fastai library `ImageClassifierCleaner`. The data were cleaned 
 # Model Deployment
 The final model was deployed in HuggingFace Spaces using Gradio App. The implementation can be found in `deployment` folder or [here](https://huggingface.co/spaces/Ishtiaque146/supercar-recognizer).
 
+![API](https://github.com/Ishtiaque-146/Supercar-Recognizer/assets/169515556/18ac4b0d-7d5a-4b0a-b69e-aa9ca6c293b4)
+
+# API integration with GitHub Pages
+The deployed model API is integrated [here](https://ishtiaque-146.github.io/Supercar-Recognizer/) in GitHub Pages Website. Implementation and other details can be found in `docs` folder.
+
