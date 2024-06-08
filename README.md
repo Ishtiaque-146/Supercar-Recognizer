@@ -44,4 +44,6 @@ Fine-tuned a resnet50 model for 5 epochs initially and then with 3 and then 2 ep
 This part took the highest time. Since the collected data were from the browser, there were many noises. Also, there were images that contained Animations, adds as well as there were garbage data that contains irrelevant subjects. The was cleaned and 
 updated by using fastai library `ImageClassifierCleaner`. The data were cleaned each time after training and finetuning till the last time which was the final iteration of the model.
 
+# Model Deployment
+The final model was deployed in HuggingFace Spaces using Gradio App. The implementation can be found in `deployment` folder or [here](https://huggingface.co/spaces/Ishtiaque146/supercar-recognizer).
 
