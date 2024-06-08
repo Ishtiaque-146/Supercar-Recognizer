@@ -36,3 +36,12 @@ Used fastai DataBlock API to set up the DataLoader where Resnet34 was used and w
 fastai provides default data augmentation which operates in GPU.
 Details can be found in 'notebooks/Data_prep.ipynb'
 
+# Training and Data Cleaning
+### Training: 
+Fine-tuned a resnet50 model for 5 epochs initially and then with 3 and then 2 epochs and got up to 98.4% accuracy.
+
+### Data Cleaning: 
+This part took the highest time. Since the collected data were from the browser, there were many noises. Also, there were images that contained Animations, adds as well as there were garbage data that contains irrelevant subjects. The was cleaned and 
+updated by using fastai library `ImageClassifierCleaner`. The data were cleaned each time after training and finetuning till the last time which was the final iteration of the model.
+
+
