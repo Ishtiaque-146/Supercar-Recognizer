@@ -26,3 +26,13 @@ The types of cars are,
 20. Lamborghini Aventador
 
 [Click Here](https://ishtiaque-146.github.io/Supercar-Recognizer/) to Visit Web aplication
+
+# Dataset Preparation
+### Data Collection: 
+The data was collected by downloading from DuckDuckGo search using their term name
+### DataLoader: 
+Used fastai DataBlock API to set up the DataLoader where Resnet34 was used and was fine-tuned multiple times.
+### Data Augmentation: 
+fastai provides default data augmentation which operates in GPU.
+Details can be found in 'notebooks/Data_prep.ipynb'
+
