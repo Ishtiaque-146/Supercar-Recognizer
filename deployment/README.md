@@ -1,4 +1,4 @@
-title: Supercar Recognizer
+Title: Supercar Recognizer
 
 emoji: 📚
 
